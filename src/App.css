@@ -1,11 +1,11 @@
-*{
+ *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
 
 body{
-    font-family:'montseratt', sans-serif;
+    font-family:'roboto', sans-serif;
 }
 
 .app{
@@ -15,8 +15,8 @@ body{
     transition: 0.4s ease-out;
 }
 
-.app .warm{
-    background-image: url('./images/perchek-industrie-0cpfP5E86B4-unsplash.jpg');
+ .app.warm{
+    background-image: url('./images/taylor-van-riper-yQorCngxzwI-unsplash.jpg');
 }
 
 main{
@@ -95,4 +95,4 @@ main{
     font-size: 48px;
     font-weight: 700;
     text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
-}
+} 
